@@ -16,4 +16,6 @@ const adminServe = require("./services/adminService");
 // adminServe.findAll().then(res => {
 //   console.log("All Admin:", JSON.stringify(res, null, 2));
 // }
-// )
+//)
+// 条件查询
+// studentService.getStudents(1, 10, 0, "秀").then(res => console.log(res))

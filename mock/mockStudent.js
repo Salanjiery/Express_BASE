@@ -1,6 +1,6 @@
 const Mock = require("mockjs");
 const result = Mock.mock({
-  "datas|5-7": [
+  "datas|200": [
     {
       name: "@cname",
       birthdady: "@date",
