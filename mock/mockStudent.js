@@ -1,13 +1,13 @@
 const Mock = require("mockjs");
 const result = Mock.mock({
-  "datas|200": [
+  "datas|2": [
     {
       name: "@cname",
-      birthdady: "@date",
+      birthday: "@date",
       "sex|1-2": true,
       mobile: /1\d{10}/,
       // location: "@city(true)",
-      "ClassId|1-16": 0,
+      "ClassId|1-16": 10,
     },
   ],
 }).datas;

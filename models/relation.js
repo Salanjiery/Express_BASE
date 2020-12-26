@@ -3,4 +3,5 @@ const Class = require("./Class");
 const Student = require("./Student");
 Class.hasMany(Student);
 Student.belongsTo(Class);
+
 console.log(`模型关系同步完毕`)

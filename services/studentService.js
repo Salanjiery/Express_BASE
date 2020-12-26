@@ -68,7 +68,7 @@ exports.getStudents = async function (
   }
 
   const result = await Student.findAndCountAll({
-    attributes: ["id", "name", "sex", "birthdady"], //限制查询出来的属性
+    attributes: ["id", "name", "sex", "birthday"], //限制查询出来的属性
     where,
     include: [Class], //联表查询，要提前写model 的 relation
     offset: (page - 1) * limit,

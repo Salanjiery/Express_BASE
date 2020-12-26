@@ -1,5 +1,5 @@
 // 添加管理员，参数要符合模型要求
-const adminServe = require("./services/adminService");
+// const adminServe = require("./services/adminService");
 //增加
 // adminServe.addAdmin({
 //   loginId: "55",
@@ -19,3 +19,11 @@ const adminServe = require("./services/adminService");
 //)
 // 条件查询
 // studentService.getStudents(1, 10, 0, "秀").then(res => console.log(res))
+//学生增加
+// studentService.addStudent({
+//     name: 'csy',
+//     sex: 1,
+//     mobile: 12312312312,
+//     birthday: new Date(),
+//     ClassId: 1
+// }).then(res => console.log(res));
