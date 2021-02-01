@@ -6,7 +6,8 @@ const Book = require("../models/Book");
  * 获取豆瓣读书网页的源代码
  */
 async function getBooksHTML() {
-  const resp = await axios.get("https://book.douban.com/latest");
+  const resp = await axios.get("https://duyi.ke.qq.com/");
+  console.log("抓取到数据：", resp.data)
   return resp.data;
 }
 
